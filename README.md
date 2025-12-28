@@ -1,1 +1,1 @@
-# nodejs-training
+# Repository with Node.js examples
