@@ -5,5 +5,5 @@ export async function printReport(folder) {
     process.stdout.write(`Folder: ${folder}\n`);
     process.stdout.write(`File count: ${stats.fileCount}\n`);
     process.stdout.write(`Folder count: ${stats.folderCount}\n`);
-    process.stdout.write(`File size: ${stats.totalSize} байт\n`);
+    process.stdout.write(`File size: ${stats.totalSize} bytes\n`);
 }
