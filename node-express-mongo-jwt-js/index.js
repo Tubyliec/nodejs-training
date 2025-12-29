@@ -23,6 +23,4 @@ const startServer = async () => {
   }
 };
 
-startServer().catch((error) => {
-  process.stderr.write(`Error: ${error.message}\n`);
-});
+await startServer()
